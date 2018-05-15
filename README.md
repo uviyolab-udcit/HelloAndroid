@@ -4,4 +4,4 @@ It demomonstrates the use of ViewGroups
 
 
 
-[[https://github.com/uviyolab-udcit/HelloAndroid/HelloAndroid-ScreenShots/helloandroid1.png|alt=helloandroid]]
+![HelloAndroid Screen Shot](HelloAndroid/HelloAndroid-ScreenShots/helloandroid1.png "alt=helloandroid.png")
