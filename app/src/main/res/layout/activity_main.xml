@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2399C4"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="223dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#1A0C11"
+        android:src="@drawable/ud_banner1" />
+
+    <TextView
+        android:id="@+id/sv"
+        android:layout_width="match_parent"
+
+        android:layout_height="66dp"
+        android:layout_centerInParent="true"
+        android:background="#1A0C11"
+        android:fontFamily="roboto"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:text="Learn. Think. Do."
+        android:textAlignment="center"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#2399C4"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/udacity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Udacity"
+        android:layout_below="@id/sv"
+        android:fontFamily="serif"
+        android:textColor="#1A0C11"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:paddingBottom="10dp"
+        android:layout_marginRight="15dp"
+        android:textAppearance="?android:textAppearanceLarge" />
+
+    <ImageView
+        android:id="@+id/phoneico"
+        android:layout_width="38dp"
+        android:layout_height="28dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/udacity"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="9dp"
+        android:layout_marginLeft="9dp"
+        android:src="@drawable/ic_phone4" />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="223dp"
+        android:layout_height="31dp"
+        android:layout_toRightOf="@id/phoneico"
+        android:layout_below="@+id/udacity"
+        android:fontFamily="serif"
+        android:paddingTop="15dp"
+        android:text="650-555-5555"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="#1A0C11" />
+
+    <ImageView
+        android:id="@+id/webico"
+        android:layout_width="38dp"
+        android:layout_height="28dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/phoneico"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="9dp"
+        android:layout_marginLeft="9dp"
+        android:src="@drawable/ic_web1" />
+
+    <TextView
+        android:id="@+id/www"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/webico"
+        android:layout_below="@id/phone"
+        android:fontFamily="serif"
+        android:text="www.udacity.com"
+        android:layout_marginTop="25dp"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="#1A0C11" />
+
+    <ImageView
+        android:id="@+id/locico"
+        android:layout_width="38dp"
+        android:layout_height="28dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/webico"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="9dp"
+        android:layout_marginLeft="9dp"
+        android:src="@drawable/ic_loc" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/locico"
+        android:layout_below="@id/webico"
+        android:fontFamily="serif"
+        android:text="2465 Latham St Mountain View, CA 94043"
+        android:layout_marginTop="15dp"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="#1A0C11" />
+</RelativeLayout>
