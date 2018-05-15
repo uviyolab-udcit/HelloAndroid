@@ -4,4 +4,4 @@ It demomonstrates the use of ViewGroups
 
 
 
-![HelloAndroid Screen Shot](HelloAndroid/HelloAndroid-ScreenShots/helloandroid1.png "alt=helloandroid.png")
+![Alt text](HelloAndroid-ScreenShots/helloandroid1.png "helloandroid.png")
